@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #555;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftcolumn, .rightcolumn {  
+  flex: 50%;  
+  background-color: #fff;  
+  padding: 10px;  
+  box-sizing: border-box;  
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.resized-img {  
+    max-width: 100%; 
+    height: auto; 
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>My Website</h1>
+  <p>Jon Wu Yuhan</p>
+</div>
+
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="travel.html">Travel</a>
+    <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">  
+      <h2>Sanya</h2>  
+      <h5>Dec 7, 2019</h5>  
+      <div class="fakeimg" style="height:20px;"></div>  
+      <img src="1.jpg" alt="Sanya Beach" width="600" height="400">  
+      <p>Beautiful beach</p>  
+    </div>  
+    <div class="card">  
+      <h2>Yandang Mountains</h2>  
+      <h5>Sep 2, 2017</h5>  
+      <div class="fakeimg" style="height:20px;"></div>  
+      <img src="6.jpg" alt="Yandang Mountains" width="600" height="400">  
+      <p>Beautiful mountain</p>  
+    </div> 
+  </div>
+  <div class="rightcolumn">
+    <div class="card">  
+      <h2>About Me</h2>  
+      <div class="fakeimg" style="height:10px;"></div>  
+      <img src="2.jpg" alt="About Me" width="300" height="200">  
+      <p>What can I say</p>  
+    </div>  
+    <div class="card">  
+      <h2>Popular Post</h2>  
+      <div class="fakeimg" style="height:100px;"></div>  
+      <img src="3.jpg" alt="Popular Post" width="300" height="200">  
+    </div> 
+    <div class="card">  
+      <h2>Follow Me</h2>  
+      <p>Happy every day</p>  
+    </div> 
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+</body>
+</html>
